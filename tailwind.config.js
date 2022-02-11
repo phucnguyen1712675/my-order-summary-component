@@ -2,9 +2,6 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
     extend: {
-      screens: {
-        xl: '1440px'
-      },
       colors: {
         'pale-blue': 'hsl(225, 100%, 94%)',
         'bright-blue': 'hsl(245, 75%, 52%)',

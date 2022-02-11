@@ -4,16 +4,16 @@ import IconMusic from './assets/images/icon-music.svg';
 function App() {
   return (
     <div className="min-h-screen w-full">
-      <div className="flex h-screen w-full items-center justify-center bg-pale-blue bg-[url('../public/assets/images/pattern-background-mobile.svg')] bg-contain bg-no-repeat sm:bg-[url('../public/assets/images/pattern-background-desktop.svg')]">
-        <div className="mx-auto flex max-h-[90vh] min-h-[70vh] w-[330px] flex-initial flex-col rounded-xl bg-white shadow-2xl shadow-bright-blue/10 sm:w-[400px]">
+      <div className="flex h-screen w-full items-center justify-center bg-pale-blue bg-[url('../public/assets/images/pattern-background-mobile.svg')] bg-contain bg-no-repeat xl:bg-[url('../public/assets/images/pattern-background-desktop.svg')]">
+        <div className="mx-auto flex min-h-[500px] w-[330px] flex-initial flex-col rounded-xl bg-white shadow-2xl shadow-bright-blue/10 xl:w-[400px]">
           <img
-            className="w-full flex-initial rounded-tl-xl rounded-tr-xl object-contain"
+            className="w-full flex-initial rounded-tl-xl rounded-tr-xl bg-no-repeat object-cover"
             src={IllustrationHero}
             alt=""
           />
-          <div className="flex flex-grow flex-col items-center gap-y-4 px-6 py-5 sm:px-10 sm:py-8">
+          <div className="flex flex-grow flex-col items-center gap-y-4 px-6 py-5 xl:px-10 xl:py-8">
             <h3 className="pt-2 text-2xl font-extrabold text-dark-blue">Order summary</h3>
-            <p className="mb-2 text-center font-light tracking-wide text-desaturated-blue line-clamp-3 sm:text-sm">
+            <p className="mb-2 text-center font-light tracking-wide text-desaturated-blue line-clamp-3 xl:text-sm">
               You can now listen to millions of songs, audiobooks, and podcasts on any device
               anywhere you like!
             </p>
@@ -47,8 +47,3 @@ function App() {
 }
 
 export default App;
-
-// <div class="attribution">
-// 	Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-// 	Coded by <a href="#">Your Name Here</a>.
-// </div>
